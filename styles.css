@@ -1,0 +1,30 @@
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-list {
+  float: right;
+}
+
+.nav-link {
+  text-decoration: none;
+  display: block;
+  color: #000;
+  padding: 14px 16px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 30px;
+}
+
+.profile-pic:hover {
+  box-shadow: 2px 2px 2px 2px grey;
+}
