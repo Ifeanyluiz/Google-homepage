@@ -1,3 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
 a {
   text-decoration: none;
 }
@@ -29,6 +39,7 @@ a:hover {
 }
 
 .profile-pic {
+  box-sizing: unset;
   border-radius: 50%;
   height: 30px;
 }
@@ -85,10 +96,11 @@ a:hover {
   align-items: center;
 }
 
+
+
 .p-div {
   width: 100%;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 30px 30px;
 }
 
 .p-text {
@@ -98,4 +110,44 @@ a:hover {
 .p-links {
   margin-left: 5px;
   padding-right: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background: #F2F2F2;
+  height: auto;
+  width: 100vw;
+}
+
+.p-footer {
+  padding: 10px;
+  margin: 10px;
+}
+
+.footer-bottom {
+  overflow: auto;
+  
+}
+
+.footer-bottom ul {
+  margin: 10px;
+  padding: 10px;
+}
+
+.footer-bottom a {
+  color: #000;
+  padding-right: 25px;
+}
+
+.second-footer-content-left {
+  display: flex;
+  list-style: none;
+  float: left;
+}
+
+.second-footer-content-right {
+  display: flex;
+  list-style: none;
+  float: right;
 }
